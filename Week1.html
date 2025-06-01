@@ -13,8 +13,9 @@
 		<link rel="Shortcut Icon" href="/favicon.ico" />
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<script src="script.js"></script>
 	</head>
-	<body>
+	<body onload="init()">
 		<div class="reveal">
 			<div class="slides">
 				<!--Module 0-->	
@@ -22,7 +23,7 @@
 				<section id="Slide0-01">
 					<img class="topimage" src="images/635560645574800000.jpg" alt="WCC Welcome sign">
 					<h2>Welcome</h2>
-					<h3>to SD 120 Fall 2025</h3>
+					<h3>to SD 120 <span id="CurrentTerm">Summer 1999</span></h3>
 					<img id="brandimage" src="https://www.whatcom.edu/Project/Contents/Main/_gfx/cmn/Logo.svg" alt="WCC Logo">
 					
 				</section>
@@ -163,7 +164,7 @@
 									<a target="_blank" href="https://www.hermetic.ch/crypto/kalliste/money2.htm">Older, Simpler HTML example</a>
 								</li>
 								<li style="font-size:small;">
-									<a target="_blank" href="https://www.cnn.com/2025/06/01/us/mit-graduation-palestine-megha-vemuri">Newer HTML</a>
+									<a target="_blank" href="https://hartenfeller.dev/blog/presentations-in-html">Newer HTML</a>
 								</li>
 							</ul>
 							<li>HTML Composition</li>
