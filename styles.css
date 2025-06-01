@@ -1,0 +1,61 @@
+#brandimage {
+	max-height: 40px;
+}
+
+section .sideimage {
+	float:left;
+	max-width: 35%;
+	padding: 20px;
+}
+
+.rightblock {
+	clear:none;
+	float:left;
+	max-width: 50%;
+}
+
+h1 {
+	display: none;
+}
+
+div.lecturenote p {
+	font-size: 0.25em;
+}
+
+
+@media screen {
+	section ul.lecturenotes {
+		display: none;
+	}
+	section div.lecturenotes {
+		display: none;
+	}
+}
+
+@media print {
+	.reveal .slides h1 {
+		display: block;
+		background-color: rgb(206, 193, 193);
+		border: 1px;
+	}
+	
+	.rightblock {
+		clear:left;
+		float:none;
+		max-width: 100%;
+	}
+	section ul ul.lecturenotes li {
+		position: relative;
+		left: 50px;
+		font-size: 0.5em ;
+	}
+	section ul.lecturenotes ul li {
+		position: relative;
+		left: 50px;
+		font-size: 0.5em ;
+	}
+	div.lecturenotes p {
+		font-size: 0.5em;
+	}
+	
+}
